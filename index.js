@@ -208,7 +208,6 @@ app.put('/api/blogs/', (req, res) => {
     res.status(200).send("successfully updated")
 })
 
-// delete a contact
 app.delete('/api/blogs/:id', (req, res) => {
     let id = req.params.id
 
